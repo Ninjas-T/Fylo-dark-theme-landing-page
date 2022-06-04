@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap');
+
+/*Selectors & Variables*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+:root {
+    --intro: hsl(217, 28%, 15%);
+    --main-bg: hsl(218, 28%, 13%);
+    --white: hsl(0, 0%, 100%);
+    --Cyan: hsl(176, 68%, 64%);
+    --Blue: hsl(194, 62%, 53%);
+}
