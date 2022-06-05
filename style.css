@@ -142,3 +142,62 @@ div p {
 }
 
 /*Services section styling ends*/
+/*Feedback section styling starts*/
+
+#feedback {
+    width: 100%;
+    color: var(--white);
+    background-color: var(--main-bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.card {
+    position: relative;
+    margin: 1rem 2rem;
+    padding: 2rem;
+    background-color: var(--Testimonials-bg);
+    box-shadow: 0 0 4px rgba(255, 255, 255, 0.1);
+}
+
+.quote {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    width: 25px;
+}
+
+#feedback p {
+    font-size: 0.75rem;
+}
+
+.user img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.user {
+    width: 100%;
+    display: flex;
+    margin-top: 1rem;
+}
+
+.user div {
+    margin-left: 0.6rem;
+}
+
+.user div h4 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+}
+
+.user div span {
+    font-size: 0.6rem;
+}
+
+/*Feedback section styling ends*/
